@@ -11,6 +11,6 @@ let string1 = "!hola ";
 let string2 = 'Beunas traddes';
 let frase = `Este es un saldo: ${string1}`;
 /////////////
-alert();
-console.log();
+alert("hola munnnndo");
+console.log("hola mundo");
 document.write();
