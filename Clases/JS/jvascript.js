@@ -79,9 +79,9 @@ if(edad >= 18){
 
 
 //
-[1, 2, 3, 4]:forEach(console-log);
+//[1, 2, 3, 4]:forEach(console-log);
 
-
+//comillas ``
 
 
 
