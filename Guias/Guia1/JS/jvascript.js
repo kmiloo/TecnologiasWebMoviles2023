@@ -28,4 +28,22 @@ alert(`La suma de los numeros pares desde el 1 hasta el numero ingresado es: ${s
 //luego contar cuántas palabras hay en la oración. Mostrar la palabra ingresada y el número
 //de palabras en el navegador.
 
+let oracion, oracion1, oracion2, palabras, num_pal;
+//expresiones regulares
+let espacios = /^\s+|\s+$/g;
+let espacios1 = /[ ]+/g;
 
+oracion = prompt('Ingrese una oracion:',0);//oracion
+oracion1 = oracion.replace(espacios,"");//se quitan espacios finales e iniciales
+oracion2 = oracion1.replace(espacios1," ");//se quitan espacios dobles
+
+palabras = oracion2.split(" ");//se separan las palabras
+num_pal = palabras.length;//se cuentan las palabras
+
+alert(`La oracion ingresada es: ${oracion} y el numero de palabras es: ${num_pal}`);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+//3) Crear un programa que pida al usuario una contraseña. Luego, verificar si la contraseña
+//ingresada cumple con ciertos criterios, como tener al menos 8 caracteres, incluir al menos
+//una letra mayúscula y un número. Muestra un mensaje en la consola indicando si la
+//contraseña es válida o no
