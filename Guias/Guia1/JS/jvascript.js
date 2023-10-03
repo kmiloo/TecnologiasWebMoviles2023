@@ -8,6 +8,7 @@ let numero;
 do {
     numero = prompt('Ingrese un número entero positivo:',0);
     numero = parseInt(numero);
+    
 
     if (isNaN(numero) || numero % 1 !== 0 || numero < 1) {
         alert('Por favor, ingrese un número entero positivo válido.');
