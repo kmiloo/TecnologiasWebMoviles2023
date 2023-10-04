@@ -7,7 +7,34 @@
     <title>Reto 3</title>
 </head>
 <body>
-    <h1> </h1>
+
+    <div>
+        <!--CAMPO DE TEXTO-->
+        Total de la boleta:
+        <input type="number" min="10" max="1000000" placeholder="Total de la boleta" id="boleta"> 
+    
+        <!-- MENU DESPLEGABLE-->
+        Porcentaje de propina: 
+        <select name="dog" id="das"> 
+            <option value=" ">  </option>
+        <option value="10%">10%</option>
+        <option value="15%">15%</option>
+        <option value="20%">20%</option>
+        </select>
+        <!-- BOTON-->
+        <button type="button" name="nombre" value="Calcular" onclick="Propina()">Calcular</button>
+        
+    </div>
+    Propina: $<a name="propina" id="resultado">_______</a> CLP
+    <br>
+    Total a Pagar: $<a name="total" id="total">_______</a> CLP
+
+    
+   
+
+    
+
+
     
 </body>
 </html>
