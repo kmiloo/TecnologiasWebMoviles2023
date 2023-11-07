@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <p>Longitud de la contraseña:</p>
+        <input type="number" max="20" min="8" id="longitud" placeholder="long">
+
+        <p>Incluir Letras Mayusculas:</p>
+        <input type="checkbox" name="mayus" id="mayus"  >
+
+        <p>Incluir Letras Minusculas:</p>
+        <input type="checkbox" name="minus" id="minus">
+
+        <p>Incluir Numeros:</p>
+        <input type="checkbox" name="num" id="num">
+
+        <p>Incluir Caracteres Especiales:</p>
+        <input type="checkbox" name="esp" id="esp"> 
+    </div>
+    
+    <button onclick="generar()" type="button">Generar contraseña</button>
+    <p>Contraseña generada:</p><p id="contr"></p>
+
+</body>
+</html>
+
