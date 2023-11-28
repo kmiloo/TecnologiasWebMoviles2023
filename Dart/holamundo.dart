@@ -1,5 +1,5 @@
 //para ejecutar codigo dart nombrearchivo.dart
-
+//importar libreria    import 'dart:math'; stdin
 void main(){
   print("programa");
  // bool fichamedica = true;
